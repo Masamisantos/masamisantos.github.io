@@ -1,0 +1,28 @@
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+	font-weight: normal;
+	font-family: Arial, Helvetica,sans-serif;
+}
+h1
+p {
+	text-align: center;xs
+}
+
+ul {list-style-type: none;
+	list-style-position: 
+  }
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right; 
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+#slogan
