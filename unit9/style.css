@@ -1,0 +1,194 @@
+body {
+    line-height: 1.7em;
+    font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    width: 100%;
+    background: 000000;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+#mobile {
+	display: none;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    font-size: 1.2em;
+    margin: auto;
+    font-weight: bold;
+    color: #616161;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 2em;
+    font-size: .8em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #616161;
+}
+
+header>img{
+	width: 50%;
+	margin:auto;
+	display: block;
+	padding-bottom: 4em;
+	padding-right: 4em;
+}
+
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width:85%;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	color: #616161;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+h2{
+	font-size:1.5em;
+}
+
+h1,h2,h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	color: #616161;
+	display:block;
+	margin: auto;
+	text-align: center;
+	padding-top:2em;
+	padding-bottom: 1.2em;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8em;
+	color: #ff9933;
+	text-align: right;
+}
+
+img{
+	width:18%;
+	padding:2em;
+}
+
+footer {
+    width: 100%;
+    background-color: #D7D5D5;
+    text-align: center;
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 654px){
+header>img {
+    width: 60%;
+	}
+
+img {
+    padding: .9em;
+    margin: auto;
+ 	}
+ 
+ #mobile{
+ 	display: none;
+ }
+
+ }
+
+
+ @media screen and (max-width: 653px){
+ 	img{
+ 		width: 60%;
+ 		display:block;
+ 		margin: auto;
+ 	}
+
+ 	#mobile{
+ 		display:block;
+ 	}
+
+ 	nav a {
+ 		float: none;
+ 		width: auto;
+ 		display: none;
+ 	}
+
+	header>img {
+    width: 70%;
+    display:block;
+    margin: auto;
+	}
+
+	h2{
+		font-size: 1.2em;
+	}
+
+	p {
+    font-size: 1em;}
+	}
+
+
+	nav:hover a {
+		display: block;
+	}
+	
+	header {
+		padding: 0;
+		padding-bottom: 1em;
+	}
+
+	#wrapper {
+		width: 85%;
+	}
+
+}
+
+ @media screen and (max-width: 500px) {
+ 
+ 	nav a{
+ 		display: none;
+ 	}
+
+ 	img {
+    width: 55%;
+    margin: auto;
+    display: block;
+}
+
+ 	header>img {
+    width: 69%;
+}
+	body {
+	background-color:orange;
+}
+
+}
+}
+
+
+
