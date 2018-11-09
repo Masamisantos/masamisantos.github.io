@@ -4,7 +4,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
     font-feature-settings: "kern";
     font-kerning: normal;
-    width: 100%;
     background: 000000;
     padding: 0;
     margin: 0;
@@ -15,16 +14,17 @@ a {
 }
 
 a:hover {
+	display: none;
 	color: orange;
 }
 
 #mobile {
-	display: none;
+	display: block;
+	float: right;
 }
 
 nav {
     width: 100%;
-    text-align: center;
     padding-bottom: 2em;
     padding-top: 1em;
     font-size: 1.2em;
@@ -33,14 +33,18 @@ nav {
     color: #616161;
 }
 
+
 nav a {
     text-decoration: none;
-    margin: 0 2em;
+    float: left;
+    margin: 0 6em;
+    padding-left: .3em;
     font-size: .8em;
-    text-align: center;
     text-transform: uppercase;
     letter-spacing: .2em;
     color: #616161;
+    display: none;
+
 }
 
 header>img{
@@ -52,20 +56,54 @@ header>img{
 }
 
 
-#wrapper{
-	margin-left: auto;
-	margin-right: auto;
-	width:85%;
-}
-
 p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.1em;
 	color: #616161;
-	margin: auto;
 	display: block;
 	text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+#services{
+	background-color: 000000;
+	padding: 2em;
+}
+
+#services> img{
+	display: block;
+	margin: auto;
+	float: left;
+}
+
+#services> h4 p{
+	float: left;
+	padding-bottom: 3em;
+
+    margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.8;
+}
+
+#works{
+	clear: left;
+	display: block;
+	width: 80%;
+	background-color: #F0F0EF;
+	margin-top: 3em;
+	padding-bottom: 0;
+}
+
 
 h2{
 	font-size:1.5em;
@@ -87,8 +125,12 @@ h4{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.8em;
 	color: #ff9933;
-	text-align: right;
 }
+#works >h4{
+	text-align: center;
+	text-decoration: none;
+}
+
 
 img{
 	width:18%;
@@ -113,10 +155,6 @@ img {
     padding: .9em;
     margin: auto;
  	}
- 
- #mobile{
- 	display: none;
- }
 
  }
 
@@ -126,10 +164,6 @@ img {
  		width: 60%;
  		display:block;
  		margin: auto;
- 	}
-
- 	#mobile{
- 		display:block;
  	}
 
  	nav a {
@@ -160,10 +194,6 @@ img {
 	header {
 		padding: 0;
 		padding-bottom: 1em;
-	}
-
-	#wrapper {
-		width: 85%;
 	}
 
 }
