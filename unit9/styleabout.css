@@ -1,0 +1,305 @@
+body {
+    line-height: 1.7em;
+    font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    background: 000000;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+	width:50%;
+	line-height: .5em;
+	font-size: 1.2em;
+	letter-spacing: .03em;
+	text-align: left;
+    line-height: 1.8;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	color: #616161;
+	display: block;
+	margin: auto;
+	text-decoration: none;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding-top: 4em;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-weight: 700;
+	display:block;
+	margin-left: 25%;
+	padding-top:1em;
+	padding-bottom: .5em;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:25; 
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1em;
+	color: #575555;
+	padding-top: .3em;
+	text-align: center;
+	display: block;
+	margin: auto;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	padding-bottom: 10%;
+}
+
+a:link{
+	text-decoration: none;
+	color: inherit;
+
+}
+a: visited{
+	text-decoration: none;
+}
+
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #D7D5D5;
+  }
+
+#fixed> a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#fixed> nav {
+    width: 100%;
+    text-decoration: none;
+    padding-bottom: 2em;
+    padding-top: .7em;
+    font-size: 1.2em;
+    margin: auto;
+    font-weight: bold;
+    color: #616161;
+
+}
+
+#fixed > a img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	left: 65px;
+}
+
+
+#fixed> nav a {
+    text-decoration: none;
+    margin: 2px 2em;
+    padding-left: .3em;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #6c6c6d;
+    float: right;
+}
+
+#toggle{
+	display: none;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+label{
+	color:#6c6c6d;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-left:32em;
+	font-size: 18px;
+	display: none;
+}
+
+hr {
+	max-width: 9%;
+	border-color: orange;
+	border-width: 2px;
+	margin-left: 45%;
+	margin-top: .2em;
+    margin-bottom: 2em;
+    border-style: solid;
+    display: block;
+    text-align: center;
+}
+#about{
+	width: 100%;
+	padding-bottom: 4em;
+}
+#about > img{
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 8em;
+}
+
+footer {
+    width: 100%;
+    background-color: #D7D5D5;
+    text-align: center;
+    clear: both;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+footer >p{
+	text-align: center;
+}
+
+footer> img{
+	width: 2.5%;
+	padding-top: 30px;
+}
+
+
+@media screen and (max-width: 811px){
+#fixed > a img {
+    left: 24px;
+}
+}
+
+@media screen and (max-width: 770px) {
+  #fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: #D7D5D5;
+  }
+}
+
+@media screen and (max-width: 635px) {
+#fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #D7D5D5;
+ }
+
+nav{
+	display: none;
+}
+
+nav a:link{
+	display: block;
+	margin-right: 30%;
+	text-align: center;
+}
+
+#fixed > a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 34px;
+}
+
+label{
+	display: block;
+	color: #6c6c6d;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 90%;
+    font-size: 18px;
+}
+
+#toggle:checked + nav{
+	display: block;
+	}
+
+hr{
+	max-width: 17%;
+	margin-left:40%;
+	margin-top: .7em;
+}
+
+h3{
+	margin-left: 15%;
+
+}
+
+#about > p{
+	width: 70%;
+}
+
+#about>img{
+	width: 70%;
+}
+
+footer>img{
+	width: 5%;
+}
+}
+
+@media screen and (max-width: 588px) {
+
+label {
+    padding-left: 85%;
+}
+}
+
+@media screen and (max-width: 580px) {
+	
+	label {
+    padding-left: 85%;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	#fixed> nav a {
+    text-decoration: none;
+    margin: 2px 1em;
+    padding-left: 1.3em;
+    }
+}
+
+@media screen and (max-width: 470px) {
+	label {
+    padding-left: 85%;
+}
+
+#fixed> nav a {
+    text-decoration: none;
+    margin: 2px 1em;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #6c6c6d;
+	}
+}
+
+
+@media screen and (max-width: 435px) {
+
+#fixed> nav a {
+    padding: 0;
+    margin: 0 4%;
+}
+}

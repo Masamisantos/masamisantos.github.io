@@ -1,0 +1,362 @@
+body {
+    line-height: 1.7em;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    background: 000000;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    z-index: 10000;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #616161;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.2em;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding-top: 4.2em;
+    padding-bottom: 1.2em;
+}
+
+h1,h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: 700;
+    display:block;
+    margin: auto;
+    text-align: center;
+    padding-top:1.5em;
+    padding-bottom: 1.2em;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:25; 
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #575555;
+    text-align: center;
+    letter-spacing: .1em;
+    margin:0;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+
+}
+a: visited{
+    text-decoration: none;
+}
+
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #D7D5D5;
+  }
+
+#fixed> a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#fixed> nav {
+    width: 100%;
+    text-decoration: none;
+    padding-bottom: 2em;
+    padding-top: .7em;
+    font-size: 1.2em;
+    margin: auto;
+    font-weight: bold;
+    color: #616161;
+
+}
+
+#fixed > a img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+}
+
+
+#fixed> nav a {
+    text-decoration: none;
+    margin: 2px 2em;
+    padding-left: .3em;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #6c6c6d;
+    float: right;
+}
+
+#toggle{
+    display: none;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+label{
+    color:#6c6c6d;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:32em;
+    font-size: 18px;
+    display: none;
+}
+
+#mail> h2{
+    color: #494747;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    letter-spacing: .2em;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+#mail> p{
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    padding-top: 7%;
+}
+
+
+#mail> h4 p{
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+    padding-bottom: 3em;
+    margin-bottom: 10px;
+}
+
+#mail> img{
+    width: 35px;
+    height: 30px;
+    margin: auto;
+    display: block;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: #767676;
+    color: white;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 16%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    display: block;
+}
+
+.container > h4{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 25;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #575555;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    margin-left: 3em;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #D7D5D5;
+    text-align: center;
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+hr {
+    max-width: 12%;
+    border-color: orange;
+    border-width: 2px;
+    margin-left: 44%;
+    margin-top: .8em;
+    margin-bottom: 2em;
+    border-style: solid;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #D7D5D5;
+    text-align: center;
+    clear: both;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+footer> img{
+    width: 3%;
+    padding-top: 30px;
+}
+
+}
+
+@media screen and (max-width: 811px){
+    p {
+    width: 90%;
+}
+
+#fixed > a img {
+    left: 24px;
+}
+}
+
+@media screen and (max-width: 770px) {
+  #fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: #D7D5D5;
+  }
+}
+
+@media screen and (max-width: 635px) {
+    #fixed{
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin: 0;
+      width: 100%;
+      background-color: #D7D5D5;
+  }
+    
+    nav{
+        display: none;
+    }
+
+    nav a:link{
+        display: block;
+        margin-right: 30%;
+        text-align: center;
+    }
+#fixed > a img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 34px;
+}
+    label{
+    display: block;
+    color: #6c6c6d;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 90%;
+    font-size: 18px;
+}
+    }
+
+    #toggle:checked + nav{
+        display: block;
+    }
+
+    footer>img{
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 588px) {
+
+label {
+    padding-left: 85%;
+}
+}
+
+@media screen and (max-width: 580px) {
+    
+    label {
+    padding-left: 85%;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    #fixed> nav a {
+    text-decoration: none;
+    margin: 2px 1em;
+    padding-left: 1.3em;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    label {
+    padding-left: 85%;
+}
+
+#fixed> nav a {
+    text-decoration: none;
+    margin: 2px 1em;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #6c6c6d;
+    }
+
+    @media screen and (max-width: 440px) {
+    #fixed> nav a {
+    text-decoration: none;
+    margin: 1px 0.6em;
+    padding-right: .7em;
+    }
+}
+
+
+@media screen and (max-width: 435px) {
+
+#fixed> nav a {
+    padding: 0;
+    margin: 0 4%;
+}
+}

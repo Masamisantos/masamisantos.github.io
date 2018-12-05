@@ -25,10 +25,8 @@ p{
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-size:2.2em;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	font-weight: 500;
-	padding-top: 4.2em;
-	padding-bottom: 1.2em;
 }
 
 h1,h3{
@@ -131,24 +129,6 @@ label{
 	font-size: 18px;
 	display: none;
 }
-#intro{
-	clear: both;
-	background-color: #ECEAEA;
-	width:100%;
-	height: 500px;
-	text-align: center;
-}
-
-#intro> p{
-	font-size: 1.3em;
-	padding-top: 1.5em;
-}
-#intro> h2{
-	padding-bottom: 0;
-}
-#intro> h3{
-
-}
 
 #works{
 	clear: both;
@@ -157,28 +137,38 @@ label{
 	margin-bottom: 40px;
 }
 
-#works> h2{
+#web> h2{
 	color: #494747;
 	text-transform: uppercase;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	letter-spacing: .2em;
 	padding-left: 1.7em;
-	padding-bottom: 0;
 	text-align: center;
+	margin-top: 15%;
 }
 
-#works> h4 a{
-	clear: both;
+#logo> h2{
+	Clear: both;
+	color: #494747;
 	text-transform: uppercase;
-	text-decoration: none;
-	font-size: .9em;
-	color: #575555;
-	padding-top: .3em;
+	font-size: 1.2em;
+	letter-spacing: .2em;
+	padding-left: 1.7em;
+	padding-top: 100px;
 	text-align: center;
-	display: block;
-	margin: auto;
-	letter-spacing: .1em;
+	margin-top: 30%;
 }
+
+#poster> h2{
+	color: #494747;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: .2em;
+	padding-left: 1.7em;
+	text-align: center;
+	margin-top: 56%;
+}
+
 hr {
 	max-width: 6%;
 	border-color: orange;
@@ -191,70 +181,34 @@ hr {
     text-align: center;
 }
 
-#works> img{
+#web> img{
+	display: block;
+	margin: auto;
+	width:33%;
+	height: 320px;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 3em;
+	float: left;
+}
+
+#logo> img{
 	display: block;
 	margin: auto;
 	width:33.33%;
 	height: 260px;
-	padding:0;
 	float: left;
 }
-#works > a {
-	text-decoration: none;
-	color: inherit;
+
+#poster> img{
+	display: block;
+	margin: auto;
+	width:25%;
+	height: 15%;
+	float: left;
+	padding-bottom: 5%;
 }
 
-#works > p{
-	text-decoration: none;
-	font-size: 1em;
-	margin-top: 3em;
-	padding-top: 3em;
-	color: #616161;
-	clear: both;
-
-}
-
-#service{
-	clear: both;
-	width: 100%;
-}
-
-#service> h2{
-	color: #494747;
-	text-transform: uppercase;
-	font-size: 1.4em;
-	letter-spacing: .2em;
-	padding-left: 1.5em;
-	padding-bottom: 0;
-	text-align: center;
-}
-
-#service> p{
-	font-size: 1.3em;
-	text-align: center;
-	padding-left: 1.8em;
-	font-family: 'Montserrat', sans-serif;
-	clear: both;
-	padding-bottom: 3em;
-    margin-bottom: 10px;
-}
-
-.item{
-    width: 200px;
-    text-align: center;
-    margin-left: 114px;
-    float: left;
-    display: block;
-    vertical-align: text-bottom;
-}
-.item > img{
-	width:48%;
-}
-.item > h4{
-	line-height: 1.2em
-	color: #616161;
-
-}
 
 footer {
     width: 100%;
@@ -270,94 +224,58 @@ footer> img{
 	padding-top: 30px;
 }
 
-@media screen and (max-width: 1255px) {
-
-.item {
-    margin-left: 78px;
-	}
-}
 
 @media screen and (max-width: 1220px) {
- 	#works> img {
-    height: 218px;
-	}
+ 	#web> img {
+    width: 33%;
+    height: 311px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
 }
-@media screen and (max-width: 1105px) {
-	.item {
-    margin-left: 50px;
-	}
+footer>img {
+    width: 4%;
+}
 }
 
 @media screen and (max-width: 1002px) {
-  	#works> img {
-    height: 180px;
+  	#web> img {
+    height: 279px;
 }
+
+#logo> img {
+    width: 33.33%;
+    height: 203px;
+    text-align: center;/
+}
+	#poster> h2 {
+    margin-top: 69%;
+	}
+}
+
 @media screen and (max-width: 999px) {
- 	#works> img {
-    height: 179px;
+ 	#web> img {
+    height: 263px;
 	}
-	.item {
-    margin-left: 38px;
-	}
-}
 
-@media screen and (max-width: 951px){
-	.item {
-    margin-left: 28px;
+#logo> img {
+   width: 33.33%;
+    height: 200px;
+}
+	footer>img {
+    width: 4%;
+}
+	#poster> h2 {
+    margin-top: 67%;
 	}
 }
-
-@media screen and (max-width: 911px){
-	.item {
-    margin-left: 17px;
-	}
-}
-@media screen and (max-width: 867px){
-	.item {
-    margin-left: 15px;
-	}
-}
-
-@media screen and (max-width: 859px){
-	#service> p {
-    text-align: center;
-    padding-left: 0;
-    padding-bottom: 3em;
-    margin-bottom: 10px;
-}
-	.item{
-    margin-left: 92px;
-    margin-right: 14%;
-}
-	.item >h4{
-		font-size: 1em;
-	}
-}
-
 @media screen and (max-width: 811px){
-	p {
-    width: 90%;
-}
-
 #fixed > a img {
     left: 24px;
 }
-
-	.item {
-    margin-left: 100px;
-    margin-right: 8%;
-}
-#service> p {
-    width: 75%;
-}
 }
 
-@media screen and (max-width: 770px) {
-	.item {
-	padding-left: 99px;
-    margin-left: 25px;
-}
- 
+@media screen and (max-width: 770px) { 
  #fixed{
   position: fixed;
   top: 0;
@@ -365,44 +283,21 @@ footer> img{
   margin: 0;
   background-color: #D7D5D5;
   }
-.item {
-    padding-left: 0;
-    margin-left: 90px;
-}
 }
 
 @media screen and (max-width: 795px) {
- 	#works> img {
- 	width: 50%;
-    height: 100%;
-	}
-    #works> h2{
-    font-size: 1.3em;
-    padding-top: 3em;
-    }
-
-    #service{
-	width: 100%;
-	 }
-
-    #service> h2{
-    font-size: 1.3em;
-    padding-top: 3em;	
-    }
-
-    #service> p{
-	padding-left: 0;
-	width: 88%;
-	}
-
+    #web > img{
+    height: 303px;
+    width: 50%;
+}
+#logo> img {
+    width: 49.33%;
+    height: 214px;
 }
 
-@media screen and (max-width: 698px) {
-	.item{
-    margin-left: 10%;
-	}
+#poster> h2{
+padding-top: 49%
 }
-
 @media screen and (max-width: 635px) {
 	#fixed{
 	  position: fixed;
@@ -422,7 +317,8 @@ footer> img{
 		margin-right: 30%;
 		text-align: center;
 	}
-#fixed > a img {
+
+	#fixed > a img {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -442,28 +338,15 @@ footer> img{
 	#toggle:checked + nav{
 		display: block;
 	}
-
-	.item{
-	padding-left: 0;
-	}
-
 	footer>img{
-		width: 6%;
+		width: 4%;
 	}
-}
-@media screen and (max-width: 622px) {
-.item {
-    margin-left: 8%;
-}
 }
 
 @media screen and (max-width: 588px) {
 
 label {
     padding-left: 85%;
-}
-.item {
-    margin-left: 6%;
 }
 }
 
@@ -473,39 +356,32 @@ label {
     padding-left: 85%;
 	}
 
-	#intro >p{
-		text-align: left;
-		padding-left: 6%;
-		font-size: 1.3em;
-		line-height: 1.6em;
-		width: 80%;
-	}
-	.item {
-	padding-left: 0;
-    margin-left: 32%;
-    padding-bottom: 7%;
-	}
+	#web > img {
+    height: 337px;
+    width: 84%;
+    float: none;
+}
+
+	#logo> img {
+    width: 77.33%;
+    height: 217px;
+    float: none;
+}
+	#poster >img{
+    width: 50%;
+    height: 18%;
+    padding-bottom: 5%;
+    float:none;
+}
 }
 
 @media screen and (max-width: 516px) {
-	#intro{
-	width:100%;
-	height: 600px;
-	}
-
 	#works> img {
     width: 100%;
     height: 100%;
     display: block;
     margin: auto;
 	}
-
-    .item {
-    margin-left: 32%;
-    padding-bottom: 7%;		
-    padding-left: 0;
-	}
-
 }
 
 @media screen and (max-width: 485px) {
@@ -530,45 +406,31 @@ label {
     color: #6c6c6d;
 	}
 
-#service >h2{
-	padding-left:4%;
+	#poster> h2 {
+    margin-top: -21%;
+	}
 }
-
-	#service>p{
-		width:90%;
-		text-align: left;
-		padding-left: 5%;
-		font-size:1.3em;
-		margin: auto;
-		display: block;
-		line-height: 1.6em;
-	}
-
 	
-    .item {
-    margin-left: 25%;
-    padding-bottom: 7%;		
-    padding-left: 0;
-	}
-
 	@media screen and (max-width: 440px) {
 	#fixed> nav a {
     text-decoration: none;
     margin: 1px 0.6em;
     padding-right: .7em;
     }
+    #web > img {
+    height: 280px;
+    width: 83%;
+    float: none;
 }
-
-    .item > img{
-	width:55%;
-    }
-
-	.item > h4{
-	padding-top: 0px;
-	line-height: 1em
-	color: #616161;
-	}
+#logo> img {
+    width: 77.33%;
+    height: 186px;
+ }
+ #poster> h2 {
+     margin-top: 0%;
 }
+ }
+
 
 @media screen and (max-width: 435px) {
 
